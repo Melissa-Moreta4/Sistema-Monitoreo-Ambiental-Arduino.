@@ -62,7 +62,7 @@ void loop() {
   String estado = "";
 
   // Lógica de Estados y Control
-  if (temp >= 15.0 || hum >= 80.0 || luz < 150) { 
+  if (temp >= 35.0 || hum >= 80.0 || luz < 150) { 
     // ESTADO DE ALARMA (Condición Crítica)
     estado = "ALARMA!";
     digitalWrite(LED_ROJO, HIGH);    // Activación visual del indicador de peligro
